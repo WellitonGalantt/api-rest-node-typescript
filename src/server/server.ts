@@ -1,9 +1,10 @@
 import express from "express";
+import './shared/services/translationsYup';
 import { router } from "./routes/index";
 
 const server = express();
 
-// Definindo o middleware para tratar o corpo da requisição como json
+// Definindo para tratar o corpo da requisição como json
 server.use(express.json());
 
 server.use(router);
