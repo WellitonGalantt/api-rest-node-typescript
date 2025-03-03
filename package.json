@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "postinstall": "tsx build",
+    "postinstall": "tsx tsc",
     "production": "node ./build/index.js",
     "lint": "eslint 'src/**/*.ts' --fix",
     "test": "jest"
