@@ -4,8 +4,13 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
+<<<<<<< HEAD
     "build": "tsc",
     "start": "node ./build/index.js",
+=======
+    "postinstall": "tsx tsc",
+    "production": "node ./build/index.js",
+>>>>>>> a69867668a859c86892d6e9e91ac8b83a8ab514f
     "lint": "eslint 'src/**/*.ts' --fix",
     "test": "jest"
   },
@@ -22,7 +27,10 @@
     "jest": "^29.7.0",
     "ts-jest": "^29.2.6",
     "ts-node": "^10.9.2",
+<<<<<<< HEAD
     "vercel": "^41.3.0",
+=======
+>>>>>>> a69867668a859c86892d6e9e91ac8b83a8ab514f
     "yup": "^1.6.1"
   },
   "devDependencies": {
@@ -39,5 +47,11 @@
     "tsx": "^4.19.3",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.24.1"
+<<<<<<< HEAD
+=======
+  },
+  "engines": {
+    "node": "16.x"
+>>>>>>> a69867668a859c86892d6e9e91ac8b83a8ab514f
   }
 }

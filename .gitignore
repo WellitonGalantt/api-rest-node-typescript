@@ -61,4 +61,7 @@ coverage/
 # Outros arquivos temporários
 temp/
 tmp/
+<<<<<<< HEAD
 .vercel
+=======
+>>>>>>> a69867668a859c86892d6e9e91ac8b83a8ab514f
