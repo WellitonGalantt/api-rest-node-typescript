@@ -2,9 +2,14 @@
 
 export interface ICity {
   name: string;
-  state: string;
 }
 
-export interface IQuery{
-  id: number;
+export interface IQuery {
+  page?: number;
+  limit?: number;
+  filter?: string;
+}
+
+export interface IParam {
+  id?: number;
 }
