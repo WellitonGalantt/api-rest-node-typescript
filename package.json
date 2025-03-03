@@ -1,0 +1,43 @@
+{
+  "name": "api-node-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node ./build/index.js",
+    "lint": "eslint 'src/**/*.ts' --fix",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Welliton Galant",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/supertest": "^6.0.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-status-codes": "^2.3.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "vercel": "^41.3.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/express": "^5.0.0",
+    "@types/http-status-codes": "^1.2.0",
+    "@types/node": "^22.13.5",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "eslint": "^9.21.0",
+    "eslint-plugin-node": "^11.1.0",
+    "globals": "^16.0.0",
+    "supertest": "^7.0.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  }
+}
