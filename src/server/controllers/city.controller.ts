@@ -4,6 +4,7 @@ import { StatusCodes } from "http-status-codes";
 import { ICity, IQuery, IParam } from '../shared/interfaces/cityInterface';
 import { citySchema, querySchema, paramSchema } from '../shared/schemas/citySchema';
 import { validation } from '../shared/middlewares';
+import { Knex } from '../database/knex';
 
 export class CityController {
 
@@ -79,7 +80,7 @@ export class CityController {
   }
 
 
-  static async createCity(req: Request<{}, {}, ICity>, res: Response) {
+  static async createCity(req: Request<{}, {}, ICity>, res: Response) { 
 
     return res.status(StatusCodes.CREATED).json(1);
   }
